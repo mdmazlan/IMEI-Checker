@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:id="@+id/llzoom"
+    android:background="@drawable/backnew"
+    android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:gravity="right"
+        android:layout_marginTop="10dp"
+        android:textSize="15dp"
+        android:text="version: 1.0" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:text="All Result BD" />
+    <TextView
+        android:layout_width="180dp"
+        android:layout_height="2dp"
+        android:background="#008000"
+        android:layout_marginBottom="1dp"
+        android:textAlignment="center"
+        android:layout_gravity="center"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        android:textIsSelectable="true"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="App Developer" />
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:src="@drawable/mazlan" />
+
+    <Button
+        android:id="@+id/btn_facebook"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:text="Md Mazlan"
+        android:background="@drawable/color"
+        android:layout_marginTop="5dp"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:textColor="#000000"
+        android:textIsSelectable="true"
+        android:layout_marginTop="5dp"
+        android:layout_height="30dp"
+        android:textSize="18dp"
+        android:text=" Email         : mdmazlan9@gmail.com" />
+
+
+</LinearLayout >

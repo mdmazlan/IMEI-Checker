@@ -23,16 +23,16 @@
             android:title="Tools" />-->
     </group>
 
-    <item android:title="Communicate">
+    <item android:title="@string/communicate">
         <menu>
             <item
                 android:id="@+id/nav_share"
                 android:icon="@drawable/ic_menu_share"
-                android:title="Share" />
+                android:title="@string/share" />
             <item
                 android:id="@+id/nav_about"
                 android:icon="@drawable/person"
-                android:title="About Developer" />
+                android:title="@string/about_developer" />
         </menu>
     </item>
 
